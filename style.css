@@ -1,0 +1,239 @@
+body{
+    margin: 0px;
+}
+.nav-container{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: aqua;
+}
+
+.navbar-logo{
+    justify-content: start;
+    margin-left: 20px;
+    color: wheat;
+    margin-top: 4vh;
+    cursor: auto;
+}
+
+.ver-carrito{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+}
+
+.banner{
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    background-image: url(./IMG/Banner.jpg)
+}
+.banner-container{
+    text-align: center;
+    padding: 15% 0;
+}
+.banner h1{
+    margin: 0;
+    color: black;
+    text-shadow:  1px  1px 3px rgba(0, 0, 0, 0.2);
+    font-size:  62px;
+    font-weight: bold;
+}
+banner h4{
+    font-size: 62px;
+    opacity: 0.8;
+    text-shadow: 1px  1px 3px rgba(0, 0, 0, 0.2);
+}
+.product {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .product img {
+    width: 200px;
+  }
+  .btn-add-to-cart{
+    background-color: aqua;
+    border-radius: 20%;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+  }
+  p{
+    color: brown;
+    font-size: 20px;
+  }
+  .shop-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  img{
+    width: 250px;
+    height: 250px;
+  }
+  h4{
+    margin: 0;
+    color:  black;
+    text-shadow:  1px  1px 3px rgba(0, 0, 0, 0.2);
+    font-size:  30px;
+    font-weight: bold;
+  }
+  .producto {
+    flex-basis: calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
+    margin-bottom: 10px;
+  }
+  .producto img {
+    width: 100%;
+    height: auto;
+  }
+  .producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .btn-ver-carrito {
+    background-color: #428bca;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+ .btn-ver-carrito:hover {
+    background-color: #3071a9;
+  }
+  .btn-confirmar-compra {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+ .btn-confirmar-compra:hover {
+    background-color: #449d44;
+  }
+  .btn-limpiar-carrito {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btn-limpiar-carrito:hover {
+    background-color: #c9302c;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .producto {
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+  }
+  .producto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  .btn-add-to-cart {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .carro {
+    display: none;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    max-height: 500px;
+    overflow-y: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .btn-increment,
+  .btn-decrement {
+    background-color: #b3e5fc;
+    color: #2196F3;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  .btn-increment {
+    margin-right: 5px;
+  }
+  .btn-decrement {
+    margin-left: 5px;
+  }
+  .carro-footer {
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+  }
+  #btnVerCarrito {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  #btnConfirmarCompra {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .precio-total {
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet; /* Cambia el color según tus preferencias */
+    margin-top: 10px;
+  }
+  .btn-cantidad {
+    color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }

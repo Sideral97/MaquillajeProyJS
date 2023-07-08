@@ -1,0 +1,11 @@
+[
+    ["id: 1","Base de Maquillaje","250$","stock: 13","img/base-maquillaje.jpg"],
+    ["id: 2","Crema Hidratante","130$","stock: 10","img/crema-hidratante.jpg"],
+    ["id: 3","Lapiz Labial","200$","stock: 11","img/lapiz-labial.jpg"],
+    ["id: 4","Limpiador Facial","100$","stock: 6","img/limpiador-facial.jpg"],
+    ["id: 5","Mascara de Pestañas","200$","stock: 13","img/mascara-pestañas.jpg"],
+    ["id: 6","Serum Facial","150$","stock: 15","img/serum-facial.jpg"],
+    ["id: 7","Polvo Compacto","150$","stock: 16","img/polvo-compacto.jpg"],
+    ["id: 8","Delineador","180$","stock: 15","img/delineador.jpg"]
+  ]
+  
